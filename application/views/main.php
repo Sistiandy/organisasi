@@ -28,19 +28,19 @@
                     <div class="row">
                         <ul class="example-orbit" data-orbit data-options="bullets:false;">
                             <li>
-                                <img src="<?php echo base_url('uploads/satelite-orbit.jpg'); ?>" alt="slide 1" />
+                                <img src="<?php echo base_url('media/img/satelite-orbit.jpg'); ?>" alt="slide 1" />
                                 <div class="orbit-caption">
                                     Caption One.
                                 </div>
                             </li>
                             <li class="active">
-                                <img src="<?php echo base_url('uploads/andromeda-orbit.jpg'); ?>" alt="slide 2" />
+                                <img src="<?php echo base_url('media/img/andromeda-orbit.jpg'); ?>" alt="slide 2" />
                                 <div class="orbit-caption">
                                     Caption Two.
                                 </div>
                             </li>
                             <li>
-                                <img src="<?php echo base_url('uploads/launch-orbit.jpg'); ?>" alt="slide 3" />
+                                <img src="<?php echo base_url('media/img/launch-orbit.jpg'); ?>" alt="slide 3" />
                                 <div class="orbit-caption">
                                     Caption Three.
                                 </div>
