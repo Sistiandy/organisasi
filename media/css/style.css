@@ -1,0 +1,44 @@
+
+@font-face {
+    font-family: 'Roboto_Regular';
+    font-style: normal;
+    src: url(../fonts/Roboto-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Roboto_Italic';
+    font-style: normal;
+    src: url(../fonts/Roboto-Italic.ttf) format('truetype');
+}
+
+/*=============================================StyleCutom===============================*/
+
+body,html{
+    font-family: 'Roboto_Regular';
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto_Regular';
+}
+.small-4 .subheader{
+    font-size: 15px;
+}
+.footer-black {
+    margin-top: 40px;
+    background: #333;
+    color: whitesmoke;
+}
+.socmed{
+    margin-right: 10px;
+    float: right;
+}
+h1 a{
+    margin-left:10px;
+    margin-right:10px;
+}
+.medium-8 p{
+    font-family: 'Roboto_Italic';
+    color: #777;
+    font-size: 12px;
+    float:  right;
+    margin-top:25px;
+    margin-bottom: 0;
+}
