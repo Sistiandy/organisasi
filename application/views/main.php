@@ -28,74 +28,29 @@
                     <div class="row">
                         <ul class="example-orbit" data-orbit data-options="bullets:false;">
                             <li>
-                                <img src="<?php echo base_url('media/img/satelite-orbit.jpg'); ?>" alt="slide 1" />
+                                <img src="<?php echo base_url('media/img/DSCN0311.jpg'); ?>" alt="slide 1" />
                                 <div class="orbit-caption">
-                                    Caption One.
+                                    Keseruan perayaan 17 Agustus 2014.
                                 </div>
                             </li>
                             <li class="active">
-                                <img src="<?php echo base_url('media/img/andromeda-orbit.jpg'); ?>" alt="slide 2" />
+                                <img src="<?php echo base_url('media/img/DSCN0274.jpg'); ?>" alt="slide 2" />
                                 <div class="orbit-caption">
-                                    Caption Two.
+                                    Perayaan HUT RI ke 69.
                                 </div>
                             </li>
                             <li>
-                                <img src="<?php echo base_url('media/img/launch-orbit.jpg'); ?>" alt="slide 3" />
+                                <img src="<?php echo base_url('media/img/DSCN0355.jpg'); ?>" alt="slide 3" />
                                 <div class="orbit-caption">
-                                    Caption Three.
+                                   Persiapan perayaan HUT RI ke 69 - 17 Agustus 2014.
                                 </div>
                             </li>
                         </ul>
                     </div>
 
-
-                    <div class="row">
-                        <div class="icon-bar four-up">
-                            <a class="item">
-                                <i class="ion-ios7-home"></i>
-                                <label>Beranda</label>
-                            </a>
-                            <a class="item">
-                                <i class="ion-images"></i>
-                                <label>Galeri Foto</label>
-                            </a>
-                            <a class="item">
-                                <i class="ion-ios7-people"></i>
-                                <label>Anggota</label>
-                            </a>
-                            <a class="item">
-                                <i class="ion-ribbon-a"></i>
-                                <label>Kegiatan</label>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <h2>Tentang "Swadaya Berkarya"</h2>
-                        <p>Artikulpi adalah lembaga pengembang TIK (teknologi informasi dan komunikasi) untuk pembangunan (ICT for Development). Artikulpi telah memulai aktvitasnya sejak tahun 2009 yang bekerjasama dengan berbagai lembaga baik di level nasional maupun internasional. Artikulpi adalah akronim dari falsafah hidup dari masyarakat Jawa yaitu Atine Resik, Tumindak Becik, Uripe Apik (Hati yang bersih, Perilaku yang baik, Hidup pun menjadi bagus). Artikulpi berpandangan bahwa bisnis harus berdasarkan hati dan moral. Bisnis tidak cuma persoalan keuntungan, namun sangat penting mempertimbangkan apakah bisnis yang dijalankan bermanfaat untuk orang banyak ataukah tidak. Hal ini pula yang mendasari produk dan layanan jasa yang diberikan oleh Artikulpi fokus pada hal-hal yang berkaitan dengan pembangunan yang berdampak pada banyak orang.</p>
-                        <hr>
-                    </div>
-
-                    <div class="row">
-                        <div class="small-12 text-center">
-                            <h3><b>KEGIATAN BERKALA</b></h3>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="small-4 columns">
-                            <h4>Pelatihan Kerajinan Tangan</h4>
-                            <p class="subheader">Melalui penggunaan TIK yang tepat maka mampu mendorong perkembangan ekonomi dan bisa mencapai semua elemen di masyarakat.</p>
-                        </div>
-                        <div class="small-4 columns">
-                            <h4>Pelatihan Kerajinan Tangan</h4>
-                            <p class="subheader">Melalui penggunaan TIK yang tepat maka mampu mendorong perkembangan ekonomi dan bisa mencapai semua elemen di masyarakat.</p>
-                        </div>
-                        <div class="small-4 columns">
-                            <h4>Pelatihan Kerajinan Tangan</h4>
-                            <p class="subheader">Melalui penggunaan TIK yang tepat maka mampu mendorong perkembangan ekonomi dan bisa mencapai semua elemen di masyarakat.</p>
-                        </div>
-                    </div>
-
+                    <?php if (isset($main)): ?>
+                        <?php $this->load->view($main); ?>
+                    <?php endif; ?>
                     <div class="row">
                         <div class="footer-black">
                             <div class="row">
